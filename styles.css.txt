@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; 
+}
+
+.container {
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* --- Header Styling --- */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dcdcdc;
+    position: relative;
+}
+
+.close-btn {
+    font-size: 30px;
+    color: #666;
+    cursor: pointer;
+}
+
+.header-text {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.help-link {
+    color: #333;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* --- Main Offer Box (Bright Green) --- */
+.offer-box {
+    background-color: #8cff4d; /* Extremely Bright Green */
+    padding: 25px 15px;
+    text-align: center;
+}
+
+.offer-box h1 {
+    font-size: 30px;
+    color: #1a1a1a;
+    margin: 0 0 5px 0;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+.offer-box .subtitle {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.input-container {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    text-align: left;
+    border: 3px solid #666666; /* Dark border to stand out */
+}
+
+.label {
+    display: block;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#upi-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 5px 0;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+.submit-btn {
+    display: block;
+    background-color: #f0c330; /* Yellow Button */
+    color: #000;
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.submit-btn.disabled {
+    background-color: #cccccc; /* Greyed out when disabled */
+    color: #666;
+    pointer-events: none;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+/* --- Important Note Section (Pink/Red) --- */
+.note-section {
+    background-color: #ff8c9a; /* Bright Pink */
+    color: #4a0910;
+    padding: 18px;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 600;
+    border-top: 5px solid #ff4c67;
+}
+
+/* --- How to Avail Section (Bright Green) --- */
+.how-to-avail {
+    background-color: #8cff4d; /* Same Bright Green */
+    padding: 25px 15px;
+    color: #333;
+}
+
+.how-to-avail h2 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: #1a1a1a;
+}
+
+.how-to-avail ol {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.how-to-avail li {
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+/* --- Confirmation Box (Yellow) --- */
+.confirmation-box {
+    background-color: #f0c330; /* Yellow/Gold color */
+    color: #000;
+    padding: 18px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    border-top: 5px solid #ffaa00;
+}
+
+.magnifier {
+    font-size: 30px;
+    position: absolute; /* Relative to the container */
+    bottom: 5px;
+    right: 5px;
+    color: #000;
+}

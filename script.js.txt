@@ -1,0 +1,31 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const upiInput = document.getElementById('upi-input');
+    const submitButton = document.getElementById('submit-button');
+
+    // Function to check input and toggle button state
+    function toggleSubmitButton() {
+        // Check if the input field has any value (is not empty)
+        if (upiInput.value.trim().length > 0) {
+            // If there is text, enable the button
+            submitButton.classList.remove('disabled');
+            submitButton.removeAttribute('disabled');
+        } else {
+            // If empty, disable the button
+            submitButton.classList.add('disabled');
+            submitButton.setAttribute('disabled', 'disabled');
+        }
+    }
+
+    // Attach the function to the 'input' event, which fires every time the user types
+    upiInput.addEventListener('input', toggleSubmitButton);
+
+    // Initial check when the page loads (to ensure it's disabled initially)
+    toggleSubmitButton();
+
+    // Prevent navigation if the button is accidentally clicked while disabled (as an extra safeguard)
+    submitButton.addEventListener('click', function(event) {
+        if (this.classList.contains('disabled')) {
+            event.preventDefault();
+        }
+    });
+});

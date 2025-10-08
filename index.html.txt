@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASH LOOT Offer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <span class="close-btn">&times;</span>
+            <div class="header-text">
+                CASH LOOT - India's Trusted
+            </div>
+            <a href="https://t.me/O_PRIME0" class="help-link">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="24px" height="24px">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.43 12.29 13 12.74 13 14h-2v-.5c0-1.12.38-2.17 1.07-2.92l1.63-1.6c.45-.45.75-1.09.75-1.78 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.72-1.07 2.38z"/>
+                </svg>
+            </a>
+        </div>
+        
+        <div class="offer-box">
+            <h1>Get Rs.200 CASHBack</h1>
+            <p class="subtitle">in YOUR UPI ACCOUNT</p>
+
+            <div class="input-container">
+                <label for="upi-input" class="label">UPI</label>
+                <input type="text" id="upi-input" placeholder="Please type your upi" required>
+            </div>
+
+            <a href="https://angel-one.onelink.me/Wjgr/xhepu84h" id="submit-button" class="submit-btn disabled" disabled>
+                Submit
+            </a>
+        </div>
+
+        <div class="note-section">
+            <p><strong>Important!</strong> Complete this Offer Carefully, You Must be Eligible for Bajaj Limit, Verify 1 Step KYC and Reach till Rs.530 Payment Page **(No need to Pay Just Wait)**</p>
+        </div>
+
+        <div class="how-to-avail">
+            <h2>How to Avail Offer:</h2>
+            <ol>
+                <li>Enter your UPI ID And Click Submit. Install Register Using Basic Details</li>
+                <li>Open Account Using Aadhar and Pan Number to complete Account Wait For Approval</li>
+                <li>Done Get Instantly Rs.200 Same UPI Id You Can Use Unlimited Times</li>
+            </ol>
+        </div>
+
+        <div class="confirmation-box">
+            RS.200 Credited WOHOOOO!!!
+        </div>
+        
+        <div class="magnifier">🔍</div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
